@@ -1,13 +1,43 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+:root {
+  --background-color: whitesmoke;
+  --text-color: #280d6c;
+  --navbar-background-color: #e5e6fa;
+  --navbar-text-color: #280d6c;
+  --sidebar-background-color: #444;
+  --sidebar-text-color: #fff;
+  --button-background-color: #333;
+  --button-text-color: #fff;
+  --card-background-color: #e8e8e8;
+  --tool-box-color: #95b9e0;
+  --img-logo-filter: hue-rotate(-5deg) saturate(100%) brightness(0.5) contrast(2);
+  --icon-filter: brightness(0)
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+[data-theme="dark"] {
+  --background-color: #000000;
+  --text-color: #d0d0ff;
+  --navbar-background-color: #171717;
+  --navbar-text-color: #fff;
+  --sidebar-background-color: #555;
+  --sidebar-text-color: #fff;
+  --card-background-color: #292929;
+  --button-background-color: #4d4d4d;
+  --button-text-color: #fff;
+  --tool-box-color: #9191ae;
+  --img-logo-filter: ; 
+  --icon-filter: ;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--background-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  color: var(--text-color);
+}
+
+* {
+  box-sizing: border-box;
 }

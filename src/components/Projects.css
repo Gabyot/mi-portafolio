@@ -1,0 +1,138 @@
+.projects {
+    padding: 100px 20px;
+    background-color: var(--background-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: var(--text-color);
+}
+
+.project-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.project {
+    background-color: var(--card-background-color);
+    padding: 50px 40px;
+    border-radius: 10px;
+    width: 60%;
+    box-shadow: 0 4px 8px rgba(10, 9, 9, 0.444);
+}
+
+.project-image {
+    background-color: rgba(238, 238, 238, 0.894);
+    border-radius: 100%;
+    width: 290px;
+    /* Ajusta el tamaño de la imagen según sea necesario */
+    height: auto;
+    margin-right: 20px;
+    /* Espaciado entre la imagen y el contenido */
+    border-radius: 10px;
+    /* Bordes redondeados para la imagen */
+    margin-right: 2rem;
+}
+
+.project-content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.project h3 {
+    display: flex;
+    align-items: start;
+    /* Centra verticalmente los elementos */
+    margin-top: 0;
+    color: var(--text-color);
+    text-align: start;
+}
+
+.project p {
+    color: var(--text-color);
+    text-align: start;
+}
+
+.tools-container {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente el contenedor */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h5 {
+    margin-right: 1rem;
+    text-align: start;
+}
+
+.tool-box {
+    display: flex;
+    align-items: center;
+    background-color: var(--tool-box-color);
+    /* Color de fondo del box */
+    padding: 5px 10px;
+    /* Espaciado interno del box */
+    border-radius: 5px;
+    /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Sombra para el box */
+    font-size: 1em;
+    /* Tamaño del texto */
+    margin-right: 1rem;
+}
+
+.tools-icon {
+    height: auto;
+    margin: 0 5px;
+    /* Espaciado alrededor de los iconos */
+    height: 20px;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    .project {
+        min-width: 400px;
+    }
+
+    .project-content {
+        flex-direction: column;
+        /* Ordena verticalmente */
+        align-items: center;
+        /* Centra los elementos */
+    }
+
+    .project-image {
+        width: 100%;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        /* Añade margen inferior para separación */
+    }
+
+
+    .project-item h3 {
+        display: flex;
+        justify-content: star;
+        /* Centra horizontalmente el contenedor */
+        align-items: star;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .tool-box {
+        margin-right: 0.1rem;
+    }
+
+    h5 {
+        margin-right: 0.1rem;
+        text-align: start;
+    }
+
+
+}
