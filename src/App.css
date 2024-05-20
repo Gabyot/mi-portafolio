@@ -10,10 +10,6 @@ main {
   transition: margin-right 0.3s ease;
 }
 
-main.shifted {
-  margin-right: 250px; /* Ajusta según el ancho del sidebar */
-}
-
 section {
   margin-bottom: 40px;
 }

@@ -7,12 +7,13 @@ const Navbar = ({ toggleSidebar, toggleTheme, isDarkMode }) => {
         <nav className="navbar">
             <div className='navbar-container'>
                 <div className="navbar-logo">
-                    <img src={glogo} alt="g-logo" className="logo-img" />
+                    <a href="#"><img src={glogo} alt="g-logo" className="logo-img" /></a>
+                    
                 </div>
                 <ul className="navbar-links">
-                    <li><a href="#presentation">Sobre mí</a></li>
                     <li><a href="#experience">Experiencia</a></li>
                     <li><a href="#projects">Proyectos</a></li>
+                    <li><a href="#aboutme">Sobre mí</a></li>
                     <li><a href="#contact">Contacto</a></li>
                 </ul>
                 <div className="navbar-actions">

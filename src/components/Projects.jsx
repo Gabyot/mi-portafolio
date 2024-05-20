@@ -35,20 +35,20 @@ const Projects = () => {
                             <div>
                                 <h3>{project.title}</h3>
                                 <p>{project.description}</p>
-                                <div className="tools-container">
-                                <h5>SKILLS:</h5>
-                                <div className='tool-box'>
-                                    <img src={js} alt="kotlin" className='tools-icon' /> JavaScript
-                                </div>
-                                <div className='tool-box'>
-                                    <img src={express} alt="springboot" className='tools-icon' /> Express
-                                </div>
-                                <div className='tool-box'>
-                                    <img src={mongo} alt="mongo" className='tools-icon' /> Mongo DB
-                                </div>
-                            </div>
                             </div>
                         </div>
+                        <div className="tools-container">
+                                    <h5>SKILLS:</h5>
+                                    <div className='tool-box'>
+                                        <img src={js} alt="kotlin" className='tools-icon' /> JavaScript
+                                    </div>
+                                    <div className='tool-box'>
+                                        <img src={express} alt="springboot" className='tools-icon express' /> Express
+                                    </div>
+                                    <div className='tool-box'>
+                                        <img src={mongo} alt="mongo" className='tools-icon' /> Mongo DB
+                                    </div>
+                                </div>
                     </div>
                 ))}
             </div>

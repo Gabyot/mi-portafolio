@@ -1,11 +1,23 @@
 .presentation {
-    padding: 220px 20px;
-    background-color: var(--background-color);
+    padding: 50px 20px 90px;
     transition: background-color 0.3s ease, color 0.3s ease;
     color: var(--text-color);
     text-align: center;
     align-items: center;
 }
+
+.memoji {
+    opacity: 0;
+    transform: translateY(20px); /* Ajusta la posición inicial si es necesario */
+    transition: all 0.7s ease-out;
+    width: 350px;
+}
+
+.memoji.show {
+    opacity: 1;
+    transform: translateY(0); /* Posición final */
+}
+
 
 .presentation h1 {
     font-size: 3em;
@@ -34,6 +46,8 @@
     width: 40px;
     height: 40px;
     transition: transform 0.2s ease;
+    position: relative; /* Asegura un contexto de apilamiento adecuado */
+    z-index: 1;
 }
 
 .social-links .social-icon:hover {
@@ -42,7 +56,6 @@
 }
 
 .typing {
-
     white-space: nowrap;
     overflow: hidden;
 }
@@ -55,9 +68,15 @@
     background-color: var(--text-color);
     animation: blink 1s steps(1) infinite;
 }
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
 
 @keyframes blink {
-    50% {
-        opacity: 0;
-    }
+    50% { opacity: 0 }
+}
+
+@keyframes blink-caret {
+    50% { border-color: transparent; }
 }

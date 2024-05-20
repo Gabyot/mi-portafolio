@@ -1,14 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import githubLogoLight from '../assets/github-logo-light.svg';
 import linkedinLogoLight from '../assets/linkedin-logo-light.svg';
-
+import memoji from '../assets/gabyot.png'
 import './Presentation.css';
 
 const Presentation = ({ isDarkMode }) => {
     const [text, setText] = useState('');
+    const [showMemoji, setShowMemoji] = useState(false);
     const fullText = "Hola, soy Gabriela Arancibia";
 
     useEffect(() => {
+        setShowMemoji(true);
         let index = 0;
         const interval = setInterval(() => {
             setText(fullText.slice(0, index));
@@ -22,6 +24,7 @@ const Presentation = ({ isDarkMode }) => {
     }, []);
     return (
         <section id="presentation" className="presentation">
+            <img src={memoji} alt="memoji-me" className={`memoji ${showMemoji ? 'show' : ''}`}/>
             <h1 className="typing">
                 {text}
                 <span className="cursor">  </span>

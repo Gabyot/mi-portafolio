@@ -36,7 +36,7 @@ const App = () => {
       <Navbar toggleSidebar={toggleSidebar} toggleTheme={toggleTheme} isDarkMode={isDarkMode} />
       <Sidebar isVisible={isSidebarVisible} />
       <main className={isSidebarVisible ? 'shifted' : ''}>
-        <Presentation isDarkMode={isDarkMode} />
+        <Presentation />
         <Experience />
         <Projects />
         <Contact />

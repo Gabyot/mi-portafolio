@@ -5,7 +5,7 @@
     height: calc(100% - 90px); /* Ajusta esto según la altura de tu navbar */
     transition: all 0.3s ease;
     z-index: 1000;
-
+    display: none;
 }
 
 .sidebar.open {
@@ -54,4 +54,10 @@
 .sidebar .menu-link i {
     font-size: 22px;
     margin-right: 15px;
+}
+
+@media (max-width: 600px) {
+    .sidebar{
+        display: inline;
+    }
 }

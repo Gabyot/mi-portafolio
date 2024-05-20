@@ -1,6 +1,5 @@
 .experience {
-    padding: 100px 20px;
-    background-color: var(--project-background-color);
+    padding: 120px 20px;
     text-align: center;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -26,7 +25,7 @@ h6 {
 
 .experience-item {
     background-color: var(--card-background-color);
-    padding: 20px 30px 20px 30px;
+    padding: 0px 30px 30px 10px;
     border-radius: 10px;
     width: 60%;
     min-width: 400px;
@@ -34,31 +33,38 @@ h6 {
     box-shadow: 0 4px 8px rgba(10, 9, 9, 0.444);
 }
 
+
+
 .experience-item h3 {
     display: flex;
-    align-items: start;
-    /* Centra verticalmente los elementos */
+    align-items: center;
     color: var(--text-color);
     text-align: start;
     margin-bottom: 0;
 }
 
+h5 {
+    font-size: medium;
+    text-align: start;
+    margin-bottom: 0.7rem;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+}
+
 .tools-container {
-    margin-top: 0;
     display: flex;
-    justify-content: first baseline;
-    /* Centra horizontalmente el contenedor */
+    justify-content: start;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-bottom: 0;
+    gap: 5px;
+    margin-left: 2rem;
 }
 
 .experience-item p {
     color: var(--text-color);
     text-align: start;
     font: medium;
-    font-size:smaller;
+    font-size:15px;
+    margin-top: 1.5rem;
 }
 
 
@@ -71,44 +77,30 @@ h6 {
     background-color: rgba(232, 232, 232, 0.894);
     border-radius: 100%;
     width: 200px;
-    /* Ajusta el tamaño de la imagen según sea necesario */
     height: auto;
     border-radius: 10px;
-    /* Bordes redondeados para la imagen */
     margin-right: 1rem;
-    transition: transform 0.3s ease; /* Añade una transición para el efecto de hover */
+    transition: transform 0.3s ease; 
 }
 
 .experience-image:hover {
-    transform: scale(1.1); /* Agranda la imagen al pasar el cursor */
-}
-
-h5 {
-    margin-right: 0.5rem;
-    text-align: start;
+    transform: scale(1.1); 
 }
 
 .tool-box {
     display: flex;
     align-items: center;
     background-color: var(--background-color);
-    /* Color de fondo del box */
     padding: 5px 10px;
-    /* Espaciado interno del box */
     border-radius: 5px;
-    /* Bordes redondeados */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    /* Sombra para el box */
     font-size: 1em;
-    /* Tamaño del texto */
-    margin-right: 0.1rem;
     transition: all 0.3s ease;
 }
 
 .tools-icon {
     height: auto;
-    margin: 0 5px;
-    /* Espaciado alrededor de los iconos */
+    margin: 0 5px 0 0;
     height: 20px;
 }
 
@@ -117,7 +109,7 @@ h5 {
 }
 
 /* Media Queries */
-@media (max-width: 1100px) {
+@media (max-width: 1020px) {
     .experience-item{
 width: 40%;
     }
@@ -142,18 +134,25 @@ width: 40%;
     .experience-item h3 {
         display: flex;
         justify-content: start;
-        /* Centra horizontalmente el contenedor */
         align-items: center;
         flex-wrap: wrap;
         gap: 10px;
     }
 
     .tool-box {
-        margin-right: 0.1rem;
-        font-size: smaller;
-        padding: 5px 10px 5px 3px;
+        font-size: 15px;
     }
-    .tools-container h5{
-        display: none;
+    .tools-container, h5 {
+        margin-bottom: 1em;
+        margin-left: 0;
+    }
+    .experience-item {
+        background-color: var(--card-background-color);
+        padding: 30px 30px 30px 30px;
+        border-radius: 10px;
+        width: 60%;
+        min-width: 400px;
+        max-width: 700px;
+        box-shadow: 0 4px 8px rgba(10, 9, 9, 0.444);
     }
 }
