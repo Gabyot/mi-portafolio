@@ -14,7 +14,22 @@ const Projects = () => {
         },
         {
             title: 'Vetbond: App Web de Citas Médicas Veterinarias',
-            description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam neque soluta vel, deserunt aliquid, expedita assumenda magni enim corrupti velit ratione optio nemo aspernatur? Vel, quasi minima. Totam, eos soluta..',
+            description: <p>
+                <p>Vetbond es un prototipo de aplicación web diseñada para conectar a tutores de animales de compañía con médicos veterinarios, facilitando la gestión de citas veterinarias de manera eficiente y cómoda. Ofrece las siguientes funcionalidades:</p>
+            <ul>
+            <li>Autenticación: Registro y login seguro con JWT.</li>
+            <li>Visualización de Citas Disponibles: Filtros por comuna y tipo de servicio.</li>
+            <li>Solicitud de Citas: Formulario con información relevante a la cita.</li>
+            <li>Gestión de Citas: Visualización y cancelación de citas programadas.</li>
+            <li>Reseñas: Dejar reseñas en citas completadas.</li>
+            <li>Perfil de Veterinario: Visualización del perfil y reseñas de otros usuarios.</li>
+            </ul>
+            <p>
+            Implementé una RESTful API con Express, organizando el proyecto bajo la arquitectura MVC. Utilizamos Git para el control de versiones y seguí un flujo kanban para la gestión del equipo. Mi rol incluyó desarrollar la API, diseñar el proyecto y liderar el equipo.
+            </p>
+            <p>
+            Vetbond optimiza la interacción entre usuarios y veterinarios, haciendo la gestión de citas más eficiente y accesible.</p>
+            </p>,
             imageUrl: vetbond
         },
         {
@@ -26,7 +41,7 @@ const Projects = () => {
 
     return (
         <section id="projects" className="projects">
-            <h2>Proyectos</h2>
+            <h2>Proyectos más relevantes</h2>
             <div className="project-list">
                 {projectList.map((project, index) => (
                     <div key={index} className="project">

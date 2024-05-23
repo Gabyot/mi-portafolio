@@ -19,7 +19,7 @@
 
 .project {
     background-color: var(--card-background-color);
-    padding: 20px 30px;
+    padding: 30px 30px;
     border-radius: 10px;
     width: 60%;
     max-width: 700px;
@@ -29,18 +29,17 @@
 .project-image {
     background-color: rgba(238, 238, 238, 0.894);
     border-radius: 100%;
-    width: 290px;
-    /* Ajusta el tamaño de la imagen según sea necesario */
+    width: 100%;
     height: auto;
-    margin-right: 20px;
-    /* Espaciado entre la imagen y el contenido */
+
     border-radius: 10px;
-    /* Bordes redondeados para la imagen */
+    margin: auto;
 }
 
 .project-content {
     display: flex;
     align-items: center;
+    flex-direction: column;
 }
 
 .project h3 {
@@ -50,11 +49,13 @@
     color: var(--text-color);
     text-align: start;
     margin-bottom: 0;
+    
 }
 
 .project p {
     color: var(--text-color);
     text-align: start;
+    margin: auto;
 }
 
 .tools-container {
@@ -75,7 +76,7 @@ h5 {
 .tool-box {
     display: flex;
     align-items: center;
-    background-color: var(--tool-box-color);
+    background-color: var(--background-color);
     /* Color de fondo del box */
     padding: 5px 10px;
     /* Espaciado interno del box */
@@ -123,8 +124,6 @@ h5 {
 
     .project-item h3 {
         display: flex;
-        justify-content: star;
-        /* Centra horizontalmente el contenedor */
         align-items: star;
         flex-wrap: wrap;
         gap: 10px;
