@@ -25,7 +25,7 @@ const Projects = () => {
             <li>Perfil de Veterinario: Visualización del perfil y reseñas de otros usuarios.</li>
             </ul>
             <p>
-            Implementé una RESTful API con Express, organizando el proyecto bajo la arquitectura MVC. Utilizamos Git para el control de versiones y seguí un flujo kanban para la gestión del equipo. Mi rol incluyó desarrollar la API, diseñar el proyecto y liderar el equipo.
+            Implementé una RESTful API con Express, organizando el proyecto bajo la arquitectura MVC. Utilizamos Git para el control de versiones y seguí un flujo kanban para la gestión del equipo. Mi rol incluyó diseñar el proyecto y flujos ux/ui, desarrollar la API, y liderar un equipo de desarrollo.
             </p>
             <p>
             Vetbond optimiza la interacción entre usuarios y veterinarios, haciendo la gestión de citas más eficiente y accesible.</p>
