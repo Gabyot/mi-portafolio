@@ -25,7 +25,7 @@ h6 {
 
 .experience-item {
     background-color: var(--card-background-color);
-    padding: 10px 30px 30px 40px;
+    padding: 10px 30px 30px 30px;
     border-radius: 10px;
     width: 60%;
     min-width: 400px;
@@ -74,9 +74,9 @@ h5 {
 }
 
 .experience-image {
-    background-color: rgba(232, 232, 232, 0.894);
+    background-color: var(--card-background-color);
     border-radius: 100%;
-    width: 200px;
+    width: 200px; 
     height: auto;
     border-radius: 10px;
     margin-right: 1rem;

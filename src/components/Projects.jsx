@@ -9,7 +9,7 @@ const Projects = () => {
     const projectList = [
         {
             title: 'ChatSocket: App de Chat en Tiempo Real',
-            description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam neque soluta vel, deserunt aliquid, expedita assumenda magni enim corrupti velit ratione optio nemo aspernatur? Vel, quasi minima. Totam, eos soluta..',
+            description: 'Lorem  ipsum dolor sit amet consectetur, adipisicing elit. Ipsam neque soluta vel, deserunt aliquid, expedita assumenda magni enim corrupti velit ratione optio nemo aspernatur? Vel, quasi minima. Totam, eos soluta..',
             imageUrl: vetbond
         },
         {
