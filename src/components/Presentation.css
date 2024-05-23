@@ -23,6 +23,7 @@
     font-size: 3em;
     margin-bottom: 10px;
     color: var(--text-color);
+    text-wrap: balance;
 }
 
 .presentation p {
@@ -79,4 +80,10 @@
 
 @keyframes blink-caret {
     50% { border-color: transparent; }
+}
+
+@media (max-width: 600px) {
+    .memoji {
+        width: 250px;
+    }
 }

@@ -8,11 +8,6 @@ import vetbond from '../assets/image.png'
 const Projects = () => {
     const projectList = [
         {
-            title: 'ChatSocket: App de Chat en Tiempo Real',
-            description: 'Lorem  ipsum dolor sit amet consectetur, adipisicing elit. Ipsam neque soluta vel, deserunt aliquid, expedita assumenda magni enim corrupti velit ratione optio nemo aspernatur? Vel, quasi minima. Totam, eos soluta..',
-            imageUrl: vetbond
-        },
-        {
             title: 'Vetbond: App Web de Citas Médicas Veterinarias',
             description: <p>
                 <p>Vetbond es un prototipo de aplicación web diseñada para conectar a tutores de animales de compañía con médicos veterinarios, facilitando la gestión de citas veterinarias de manera eficiente y cómoda. Ofrece las siguientes funcionalidades:</p>
@@ -30,6 +25,10 @@ const Projects = () => {
             <p>
             Vetbond optimiza la interacción entre usuarios y veterinarios, haciendo la gestión de citas más eficiente y accesible.</p>
             </p>,
+            imageUrl: vetbond
+        },{
+            title: 'ChatSocket: App de Chat en Tiempo Real',
+            description: 'Lorem  ipsum dolor sit amet consectetur, adipisicing elit. Ipsam neque soluta vel, deserunt aliquid, expedita assumenda magni enim corrupti velit ratione optio nemo aspernatur? Vel, quasi minima. Totam, eos soluta..',
             imageUrl: vetbond
         },
         {

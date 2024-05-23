@@ -15,6 +15,7 @@
   --icon-filter: brightness(0);
   --icon-filter-express: ;
   --url-background-img: url("https://www.transparenttextures.com/patterns/transparent-square-tiles.png");
+  --filter-digipaw: ;
 }
 
 [data-theme="dark"] {
@@ -32,6 +33,7 @@
   --icon-filter: ;
   --icon-filter-express: brightness(1);
   --url-background-img: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+  --filter-digipaw: contrast(1.5);
 }
 
 body {
@@ -42,7 +44,6 @@ body {
   color: var(--text-color);
   background-image: var(--url-background-img);
 }
-
 * {
   box-sizing: border-box;
 }

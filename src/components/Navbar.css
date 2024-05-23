@@ -63,10 +63,6 @@
     transform: scale(1.2); /* Agranda la imagen al pasar el cursor */
 }
 
-.navbar-actions {
-    display: flex;
-    align-items: center;
-}
 
 .theme-button,
 .menu-button {
@@ -97,6 +93,7 @@
 @media (max-width: 600px) {
     .navbar-container {
         width: 390px;
+        justify-content: space-between;
     }
     .navbar-links {
         display: none;
