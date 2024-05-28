@@ -4,7 +4,7 @@ import linkedinLogoLight from '../assets/linkedin-logo-light.svg';
 import memoji from '../assets/gabyot.png'
 import './Presentation.css';
 
-const Presentation = ({ isDarkMode }) => {
+const Presentation = () => {
     const [text, setText] = useState('');
     const [showMemoji, setShowMemoji] = useState(false);
     const fullText = "Hola, soy Gabriela Arancibia";

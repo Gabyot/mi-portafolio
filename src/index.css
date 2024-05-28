@@ -16,6 +16,7 @@
   --icon-filter-express: ;
   --url-background-img: url("https://www.transparenttextures.com/patterns/transparent-square-tiles.png");
   --filter-digipaw: ;
+  --icon-black-filter: brightness(0);
 }
 
 [data-theme="dark"] {
@@ -25,7 +26,7 @@
   --navbar-text-color: #fff;
   --sidebar-background-color: #555;
   --sidebar-text-color: #fff;
-  --card-background-color: #403f3f;
+  --card-background-color: #3b3b3b;
   --button-background-color: #4d4d4d;
   --button-text-color: #fff;
   --tool-box-color: #9191ae;
@@ -34,6 +35,7 @@
   --icon-filter-express: brightness(1);
   --url-background-img: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
   --filter-digipaw: contrast(1.5);
+  --icon-black-filter: brightness(1000%);
 }
 
 body {

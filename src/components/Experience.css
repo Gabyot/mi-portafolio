@@ -1,5 +1,5 @@
 .experience {
-    padding: 120px 20px;
+    padding: 90px 20px;
     text-align: center;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -20,20 +20,19 @@ h6 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
 }
 
 .experience-item {
-    background-color: var(--card-background-color);
+    border: 1px solid var(--text-color);
     padding: 10px 40px 30px 40px;
     border-radius: 10px;
     width: 60%;
     min-width: 400px;
-    max-width: 700px;
+    max-width: 900px;
     box-shadow: 0 4px 8px rgba(10, 9, 9, 0.444);
+    gap: 30px;
 }
-
-
 
 .experience-item h3 {
     display: flex;
@@ -47,23 +46,14 @@ h5 {
     font-size: medium;
     text-align: start;
     margin-bottom: 0.7rem;
-    margin-top: 1.5rem;
-}
-
-.tools-container {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    gap: 5px;
-
+    margin-top: 1rem;
 }
 
 .experience-item p {
     color: var(--text-color);
     text-align: start;
     font: medium;
-    font-size:15px;
-    margin-top: 1.5rem;
+    font-size: 14px;
 }
 
 
@@ -73,39 +63,17 @@ h5 {
 }
 
 .experience-image {
-
-    border-radius: 100%;
     width: 200px; 
     height: auto;
     border-radius: 10px;
-    margin-right: 1rem;
+    margin-right: 2rem;
     transition: transform 0.3s ease; 
-    filter: var(--filter-digipaw);
+    background-color: whitesmoke;
+    margin-top: 2rem;
 }
 
 .experience-image:hover {
     transform: scale(1.1); 
-}
-
-.tool-box {
-    display: flex;
-    align-items: center;
-    background-color: var(--background-color);
-    padding: 5px 10px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    font-size: 1em;
-    transition: all 0.3s ease;
-}
-
-.tools-icon {
-    height: auto;
-    margin: 0 5px 0 0;
-    height: 20px;
-}
-
-.tool-box:hover{
-    transform: scale(1.1);
 }
 
 /* Media Queries */
@@ -125,6 +93,7 @@ width: 40%;
         display: flex;
         width: 50%;
         margin: auto;
+        margin-top: 2rem;
     }
 
     .experience-item p {
@@ -147,9 +116,6 @@ width: 40%;
         margin-left: 0;
     }
     .experience-item {
-        background-color: var(--card-background-color);
-        padding: 30px 30px 30px 30px;
-        border-radius: 10px;
         width: 60%;
         min-width: 400px;
         max-width: 700px;
