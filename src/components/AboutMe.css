@@ -1,0 +1,67 @@
+.about-me {
+    padding: 90px 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .about-me h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: var(--text-color);
+  }
+  
+  .aboutme-content {
+    border: 1px solid var(--text-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(10, 9, 9, 0.444);
+    display: block;
+    align-items: flex-start;
+    margin: auto;
+    padding: 40px;
+    width: 80%;
+    max-width: 1000px;
+  }
+  
+  .me {
+    width: 300px;
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle(50%);
+    margin: 20px 30px 20px 0;
+    transition: all 0.3s ease;
+  }
+
+  .me:hover{
+    transform: scale(1.1);
+  }
+  
+  .text-content {
+    flex: 1;
+  }
+  
+  .text-content p {
+    margin: 10px 0;
+    text-align: left;
+  }
+  
+  @media (max-width: 768px) {
+    .aboutme-content {
+      flex-direction: column;
+      align-items: center;
+      min-width: 400px;
+    }
+  
+    .me {
+      float: none;
+      margin-bottom: 20px;
+      shape-outside: none;
+    }
+  
+    .text-content {
+      text-align: center;
+    }
+  }
+  
