@@ -6,6 +6,7 @@ import Projects from './components/Projects';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
 import './App.css';
+import AboutMe from './components/AboutMe';
 
 const App = () => {
   const [isSidebarVisible, setSidebarVisible] = useState(false);
@@ -39,6 +40,7 @@ const App = () => {
         <Presentation />
         <Experience />
         <Projects />
+        <AboutMe/>
         <Contact />
       </main>
     </div>
