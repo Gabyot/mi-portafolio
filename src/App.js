@@ -7,6 +7,7 @@ import Experience from './components/Experience';
 import Contact from './components/Contact';
 import './App.css';
 import AboutMe from './components/AboutMe';
+import Footer from './components/Footer'
 
 const App = () => {
   const [isSidebarVisible, setSidebarVisible] = useState(false);
@@ -42,6 +43,7 @@ const App = () => {
         <Projects />
         <AboutMe/>
         <Contact />
+        <Footer />
       </main>
     </div>
   );
