@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mi-portafolio/build/static/css/main.9165b948.css",
-    "main.js": "/mi-portafolio/build/static/js/main.31546bb8.js",
+    "main.css": "/mi-portafolio/build/static/css/main.f1a20d44.css",
+    "main.js": "/mi-portafolio/build/static/js/main.7a1f82bb.js",
     "static/media/vetbondpresent.png": "/mi-portafolio/build/static/media/vetbondpresent.6dc9e531b2b7748c8233.png",
     "static/media/futuralib.png": "/mi-portafolio/build/static/media/futuralib.c95541b75a7bb68f3c10.png",
     "static/media/me.png": "/mi-portafolio/build/static/media/me.74f700fcb28ab8762640.png",
@@ -34,11 +34,11 @@
     "static/media/html5-logo.svg": "/mi-portafolio/build/static/media/html5-logo.f318c8b1d5945fa9adc827ae94849cb1.svg",
     "static/media/kotlin-logo.svg": "/mi-portafolio/build/static/media/kotlin-logo.5a7fd252fc5dded7afbaf24b302f3ee7.svg",
     "static/media/link.svg": "/mi-portafolio/build/static/media/link.87613f4dc122adf05450becbfeaf450d.svg",
-    "main.9165b948.css.map": "/mi-portafolio/build/static/css/main.9165b948.css.map",
-    "main.31546bb8.js.map": "/mi-portafolio/build/static/js/main.31546bb8.js.map"
+    "main.f1a20d44.css.map": "/mi-portafolio/build/static/css/main.f1a20d44.css.map",
+    "main.7a1f82bb.js.map": "/mi-portafolio/build/static/js/main.7a1f82bb.js.map"
   },
   "entrypoints": [
-    "static/css/main.9165b948.css",
-    "static/js/main.31546bb8.js"
+    "static/css/main.f1a20d44.css",
+    "static/js/main.7a1f82bb.js"
   ]
 }
