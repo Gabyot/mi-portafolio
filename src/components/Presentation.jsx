@@ -38,7 +38,7 @@ const Presentation = () => {
                 <a href="https://www.linkedin.com/in/gabriela-paz-arancibia-echeverr%C3%ADa-039a91142/" target="_blank" rel="noopener noreferrer">
                     <img src={linkedinLogoLight} alt="LinkedIn" className="social-icon linkedin-icon" />
                 </a>
-                <a href="https://www.canva.com/design/DAGG2Su5dfk/QHivCWj5vj0cuCpDU0OkOQ/view?utm_content=DAGG2Su5dfk&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank" rel="noopener noreferrer">
+                <a href="https://drive.google.com/file/d/1OqG7ax0m35y5BiW1o7arsy0c60XUHLfl/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                     <FaFilePdf className="social-icon cv-icon" />
                 </a>
             </div>
