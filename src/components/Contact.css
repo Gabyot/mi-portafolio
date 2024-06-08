@@ -1,5 +1,5 @@
 .contact {
-    padding: 100px 20px;
+    padding: 10px 20px;
     background-color: var(--project-background-color);
     transition: background-color 0.3s ease, color 0.3s ease;
     text-align: center;
@@ -7,39 +7,70 @@
 
 .contact h2 {
     font-size: 2.5em;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
     color: var(--text-color);
 }
 
-.contact form {
+.contact-icons {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap:10px;
+}
+
+.contact-email {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    gap: 20px;
+    gap: 1px;
 }
 
-.contact label {
-    font-size: 1.2em;
+.contact-email button {
+    background-color: rgba(250, 235, 215, 0);
     color: var(--text-color);
+    border: 1px solid var(--text-color);
+    border-radius: 5px;
+    padding: 5px 5px;
+    cursor:copy;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    display: flex;
+    align-items: center;
+    height: min-content;
+    transition: all 0.3s ease;
 }
 
-.contact input, .contact textarea {
-    padding: 10px;
-    width: 100%;
-    max-width: 500px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+.contact-email button:hover {
+    filter: var(--img-logo-filter);
 }
 
-.contact button {
-    padding: 10px 20px;
-    background-color: var(--button-background-color);
-    color: white;
-    border: none;
+.contact-email p {
+    background-color: rgba(250, 235, 215, 0);
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
     border-radius: 5px;
+    padding: 5px 5px;
+    font-size: small;
+}
+
+.contact-email button:focus {
+    outline: none;
+}
+
+.contact-social-icons {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    height: min-content;
+    gap: 10px;
+}
+
+.social-icon {
+    color: var(--text-color);
+    font-size: 1.5em;
+    transition: all 0.3s ease;
     cursor: pointer;
 }
 
-.contact button:hover {
-    background-color: #575757;
+.social-icon:hover {
+    transform: scale(1.3);
 }
