@@ -1,5 +1,5 @@
 .projects {
-    padding: 90px 20px;
+    padding: 40px 20px;
     transition: background-color 0.3s ease, color 0.3s ease;
     text-align: center;
 }
@@ -18,7 +18,6 @@
 }
 
 .project {
-
     border: 1px solid var(--text-color);
     padding: 40px 40px;
     border-radius: 10px;
@@ -30,13 +29,17 @@
 .img-project {
     display: flex;
     width: fit-content;
-    transition: all 0.5s ease;
     align-self: last baseline;
+    overflow: hidden; /* Oculta el contenido desbordado */
 }
 
-.img-project:hover {
-    transform: scale(1.1);
-    z-index: 1;
+.img-project img {
+    width: 100%; /* Asegura que la imagen se ajuste al contenedor */
+    transition: transform 0.8s ease; /* Aplica la transición solo a la transformación */
+}
+
+.img-project:hover img {
+    transform: scale(2.7) translateX(-4rem);
 }
 
 
@@ -148,7 +151,7 @@ h5 {
     margin: 0 5px;
     /* Espaciado alrededor de los iconos */
     height: 20px;
-    filter: grayscale(1) contrast(1) brightness(1);
+    filter: grayscale(1) contrast(0.2) brightness(1.1);
 }
 .tool-box:hover{
     transform: scale(1.1);
