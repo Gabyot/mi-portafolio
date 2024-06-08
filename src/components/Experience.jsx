@@ -17,7 +17,7 @@ const Experience = () => {
             <div className="experience-list">
                 <div className="experience-item">
                     <div className="experience-content">
-                        <a href="https://www.linkedin.com/company/digipaw/"><img src={Digipaw} alt="digipaw" className="experience-image" /></a>
+                        <a href="https://www.linkedin.com/company/digipaw/" target="_blank" rel="noopener noreferrer"><img src={Digipaw} alt="digipaw" className="experience-image" /></a>
                         <div>
                             <img src="" alt="" />
                             <h3>Desarrolladora Backend en Digipaw</h3>
