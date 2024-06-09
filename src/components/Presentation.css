@@ -15,7 +15,7 @@
 
 .memoji.show {
     opacity: 1;
-    transform: translateY(0); /* Posición final */
+    transform: translateY(0);
 }
 
 
@@ -49,6 +49,7 @@
     transition: transform 0.2s ease;
     position: relative; /* Asegura un contexto de apilamiento adecuado */
     z-index: 1;
+    color: whitesmoke;
 }
 
 .social-links .social-icon:hover {
