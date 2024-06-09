@@ -47,7 +47,7 @@ const Experience = () => {
                             <img src={mongo} alt="mongo" className='tools-icon' /> MongoDB
                         </div>
                         <div className='tool-box'>
-                            <img src={git} alt="git" className='tools-icon' />
+                            <img src={git} alt="git" className='tools-icon' /> Git
                         </div>
 
                         <div className='tool-box'>
