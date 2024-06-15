@@ -1,5 +1,5 @@
 .about-me {
-    padding: 40px 20px;
+    padding: 20px 20px;
     transition: background-color 0.3s ease, color 0.3s ease;
     text-align: center;
     display: flex;
@@ -19,7 +19,7 @@
     box-shadow: 0 4px 8px rgba(10, 9, 9, 0.444);
     display:block ;
     padding: 40px;
-    width: 80%;
+    width: 60%;
     min-width: 400px;
     max-width: 900px;
   }
@@ -42,7 +42,7 @@
   }
   
   .text-content p {
-    margin: 10px 0;
+    margin: 15px 0;
     text-align: left;
     font-size: 14px;
   }

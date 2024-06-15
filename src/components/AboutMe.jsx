@@ -8,7 +8,7 @@ const AboutMe = () => {
             <div className="about-me">
                 <h2>Sobre Mí</h2>
                 <div className="aboutme-content">
-                    <img src={me} alt="Mi imagen" className="me" />
+                <img src={me} alt="Mi imagen" className="me" />
                     <div className="text-content">
                         <p>
                             Durante 7 años trabajé en el rubro de ventas de tecnología, lo que me brindó comprensión del mercado tecnológico y gran interés por la ingeniería de software, por lo que decidí estudiar programación y análisis de sistemas en un instituto profesional.
@@ -23,6 +23,7 @@ const AboutMe = () => {
                             En la actualidad, me desempeño como desarrolladora backend utilizando tecnologías como Kotlin y Spring Boot. Estoy comprometida con mi crecimiento profesional y me encuentro en constante formación en arquitecturas limpias y buenas prácticas de desarrollo. Además, continúo buscando nuevas oportunidades para aprender y colaborar, con el objetivo de superar mis límites y agregar valor a cada proyecto en el que participe.
                         </p>
                     </div>
+                    
                 </div>
             </div>
         </section>
