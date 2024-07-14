@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mi-portafolio/static/css/main.f9241fbd.css",
-    "main.js": "/mi-portafolio/static/js/main.4ed2c4c6.js",
+    "main.js": "/mi-portafolio/static/js/main.f0bd4a17.js",
     "static/media/vetbondpresent.png": "/mi-portafolio/static/media/vetbondpresent.6dc9e531b2b7748c8233.png",
     "static/media/futuralib.png": "/mi-portafolio/static/media/futuralib.c95541b75a7bb68f3c10.png",
     "static/media/me.png": "/mi-portafolio/static/media/me.74f700fcb28ab8762640.png",
@@ -35,10 +35,10 @@
     "static/media/kotlin-logo.svg": "/mi-portafolio/static/media/kotlin-logo.5a7fd252fc5dded7afbaf24b302f3ee7.svg",
     "static/media/link.svg": "/mi-portafolio/static/media/link.87613f4dc122adf05450becbfeaf450d.svg",
     "main.f9241fbd.css.map": "/mi-portafolio/static/css/main.f9241fbd.css.map",
-    "main.4ed2c4c6.js.map": "/mi-portafolio/static/js/main.4ed2c4c6.js.map"
+    "main.f0bd4a17.js.map": "/mi-portafolio/static/js/main.f0bd4a17.js.map"
   },
   "entrypoints": [
     "static/css/main.f9241fbd.css",
-    "static/js/main.4ed2c4c6.js"
+    "static/js/main.f0bd4a17.js"
   ]
 }
