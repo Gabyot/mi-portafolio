@@ -10,7 +10,7 @@ const Navbar = ({ toggleSidebar, toggleTheme, isDarkMode }) => {
                     <i className="bx bx-menu"></i>
                 </button>
                 <div className="navbar-logo">
-                    <a href="#"><img src={glogo} alt="g-logo" className="logo-img" /></a>
+                    <a href="#presentation"><img src={glogo} alt="g-logo" className="logo-img" /></a>
 
                 </div>
                 <ul className="navbar-links">
